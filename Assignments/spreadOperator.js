@@ -11,3 +11,12 @@ function sumTotal (...res)
 }
 
 let result = sumTotal(merArray3);
+
+const person = {fistName: 'Sureshkumar', lastName:'Natarajan'}
+const details = {address:'511 caruvery road', city:'erode', state:'TamilNadu',
+subaddress: {country: 'India'}
+}
+
+const persionDetails = {...person,...details}
+
+console.log(persionDetails);
